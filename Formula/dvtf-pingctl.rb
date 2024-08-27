@@ -32,10 +32,6 @@ class DvtfPingctl < Formula
       libexec.install Dir["*"]
   
       bin.install_symlink "#{libexec}/dvtf-pingctl" => "dvtf-pingctl"
-  
-     # Install shell completions
-      generate_completions_from_executable(bin/"dvtf-pingctl",
-        "completion", base_name: "dvtf-pingctl")
     end
   
     test do
