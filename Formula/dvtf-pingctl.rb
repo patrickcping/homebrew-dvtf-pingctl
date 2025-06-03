@@ -2,29 +2,29 @@ class DvtfPingctl < Formula
     desc "A simple CLI tool to assist HCL generation and debugging with using the DaVinci Terraform provider from Ping Identity."
     homepage "https://github.com/patrickcping/dvtf-pingctl"
     license "MIT"
-    version "0.4.3"
+    version "0.4.4"
   
     head "https://github.com/patrickcping/dvtf-pingctl.git"
   
     on_macos do
       on_arm do
         url "https://github.com/patrickcping/dvtf-pingctl/releases/download/v#{version}/dvtf-pingctl_darwin_arm64.tar.gz"
-        sha256 "b8e9002d43f3370c86912c63f1e257a061c8a1f317d6ad300fe064e7f34e6cd1"
+        sha256 "26ebc037da1809f15b4e47cb0a9ec74a7e8e4d7d3ceb328053f3f71b8c06d932"
       end
       on_intel do
         url "https://github.com/patrickcping/dvtf-pingctl/releases/download/v#{version}/dvtf-pingctl_darwin_amd64.tar.gz"
-        sha256 "73fd582311817ba4bccf5ada05977a0977b2c11e73a2a755e87f60b5a497a476"
+        sha256 "f078bcb032eb505c2444f062f56a649a3df4f70f006770346551c63b5b48798c"
       end
     end
   
     on_linux do
       on_arm do
         url "https://github.com/patrickcping/dvtf-pingctl/releases/download/v#{version}/dvtf-pingctl_linux_arm64.tar.gz"
-        sha256 "5de9a36403db148b07adab3f0dba97303ee6d88ec8768b9c71f8612b03304ddd"
+        sha256 "37257431e79c2917dde50bb502bfddbd800c9137da5a9556d2d412cf332d13ab"
       end
       on_intel do
         url "https://github.com/patrickcping/dvtf-pingctl/releases/download/v#{version}/dvtf-pingctl_linux_amd64.tar.gz"
-        sha256 "170aa3b09862c417f6dbad03d5173187a67ecbb296a6d94e65b42b83e478647e"
+        sha256 "d1627ebfcb7cc3f10b386c1ed93cb4fcb0892ad9dfd71f31e0706a45c06fb47d"
       end
     end
   
