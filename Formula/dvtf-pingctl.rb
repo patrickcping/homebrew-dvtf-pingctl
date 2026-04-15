@@ -3,6 +3,8 @@ class DvtfPingctl < Formula
     homepage "https://github.com/patrickcping/dvtf-pingctl"
     license "MIT"
     version "0.5.2"
+
+    deprecate! date: "2026-04-15", because: "has been replaced by https://github.com/pingidentity/pingcli-plugin-terraformer"
   
     head "https://github.com/patrickcping/dvtf-pingctl.git"
   
